@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-20T18:19:50 IST" name="Suite" finished-at="2021-07-20T18:22:54 IST" duration-ms="184670">
+    <groups>
+      <group name="CarInsurance">
+        <method signature="CarInsuranceTest.CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@21d03963]" name="CarInsuranceQuoteTest" class="TestCase.CarInsuranceTest"/>
+        <method signature="CarInsuranceTest.CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@1169afe1]" name="CarInsuranceQuoteTest" class="TestCase.CarInsuranceTest"/>
+      </group> <!-- CarInsurance -->
+      <group name="Regression">
+        <method signature="HealthInsuranceTest.HealthInsuranceMenuTest()[pri:0, instance:TestCase.HealthInsuranceTest@264f218]" name="HealthInsuranceMenuTest" class="TestCase.HealthInsuranceTest"/>
+        <method signature="HealthInsuranceTest.HealthInsuranceMenuTest()[pri:0, instance:TestCase.HealthInsuranceTest@747f281]" name="HealthInsuranceMenuTest" class="TestCase.HealthInsuranceTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TravelnsuranceTest.InsurancePlanTest(java.util.Hashtable)[pri:0, instance:TestCase.TravelnsuranceTest@769a1df5]" name="InsurancePlanTest" class="TestCase.TravelnsuranceTest"/>
+        <method signature="TravelnsuranceTest.InsurancePlanTest(java.util.Hashtable)[pri:0, instance:TestCase.TravelnsuranceTest@81d9a72]" name="InsurancePlanTest" class="TestCase.TravelnsuranceTest"/>
+      </group> <!-- Smoke -->
+      <group name="Default">
+        <method signature="CarInsuranceTest.CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@21d03963]" name="CarInsuranceQuoteTest" class="TestCase.CarInsuranceTest"/>
+        <method signature="CarInsuranceTest.CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@1169afe1]" name="CarInsuranceQuoteTest" class="TestCase.CarInsuranceTest"/>
+      </group> <!-- Default -->
+      <group name="HealthInsurance">
+        <method signature="HealthInsuranceTest.HealthInsuranceMenuTest()[pri:0, instance:TestCase.HealthInsuranceTest@264f218]" name="HealthInsuranceMenuTest" class="TestCase.HealthInsuranceTest"/>
+        <method signature="HealthInsuranceTest.HealthInsuranceMenuTest()[pri:0, instance:TestCase.HealthInsuranceTest@747f281]" name="HealthInsuranceMenuTest" class="TestCase.HealthInsuranceTest"/>
+      </group> <!-- HealthInsurance -->
+      <group name="InsurancePlan">
+        <method signature="TravelnsuranceTest.InsurancePlanTest(java.util.Hashtable)[pri:0, instance:TestCase.TravelnsuranceTest@769a1df5]" name="InsurancePlanTest" class="TestCase.TravelnsuranceTest"/>
+        <method signature="TravelnsuranceTest.InsurancePlanTest(java.util.Hashtable)[pri:0, instance:TestCase.TravelnsuranceTest@81d9a72]" name="InsurancePlanTest" class="TestCase.TravelnsuranceTest"/>
+      </group> <!-- InsurancePlan -->
+    </groups>
+    <test started-at="2021-07-20T18:19:50 IST" name="TravelInsuranceDetailsTest" finished-at="2021-07-20T18:20:22 IST" duration-ms="31921">
+      <class name="TestCase.TravelnsuranceTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.TravelnsuranceTest@769a1df5]" started-at="2021-07-20T18:19:50 IST" name="openBrowser" finished-at="2021-07-20T18:19:52 IST" duration-ms="2621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="InsurancePlanTest(java.util.Hashtable)[pri:0, instance:TestCase.TravelnsuranceTest@769a1df5]" started-at="2021-07-20T18:19:53 IST" name="InsurancePlanTest" data-provider="getInsurancePlanTestData" finished-at="2021-07-20T18:20:20 IST" duration-ms="26967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Destination=British Indian Ocean Territory, Number Prefix=INDIA (+91), Start Date=20/08/21, Comments=Displayed three lowest international travel insurance plan, Email=arun@gmail.com, Name=Arun, Name Prefix=Mr., Number=8181818181, End Date=30/09/21, Test Ststus=Pass, Age=21,22, Test ID=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurancePlanTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestCase.TravelnsuranceTest@769a1df5]" started-at="2021-07-20T18:20:20 IST" name="flushReport" finished-at="2021-07-20T18:20:22 IST" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- TestCase.TravelnsuranceTest -->
+    </test> <!-- TravelInsuranceDetailsTest -->
+    <test started-at="2021-07-20T18:20:22 IST" name="CarInsuranceErrorMessageTest" finished-at="2021-07-20T18:21:13 IST" duration-ms="50990">
+      <class name="TestCase.CarInsuranceTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.CarInsuranceTest@21d03963]" started-at="2021-07-20T18:20:22 IST" name="openBrowser" finished-at="2021-07-20T18:20:23 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@21d03963]" started-at="2021-07-20T18:20:24 IST" name="CarInsuranceQuoteTest" data-provider="getCarInsuranceTestData" finished-at="2021-07-20T18:20:48 IST" duration-ms="24706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Car Brand=HONDA, Username=Arun, Comments=Email or Phone number is invalid, Email=arun@gmail.com, Fuel Type=Petrol, Number=525222, Car Variant=V6 AUTO TRANSMISSION, Test Ststus=Pass, City=TN01-CHENNAI, Reg Year=2015, Test ID=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarInsuranceQuoteTest -->
+        <test-method signature="CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@21d03963]" started-at="2021-07-20T18:20:48 IST" name="CarInsuranceQuoteTest" data-provider="getCarInsuranceTestData" finished-at="2021-07-20T18:21:08 IST" duration-ms="19884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Car Brand=RENAULT, Username=Guna, Comments=Email or Phone number is invalid, Email=gunagmail, Fuel Type=Diesel, Number=8181818181, Car Variant=1.5 PLATINE MONO (1461 cc), Test Ststus=Pass, City=AP01-MANCHERYAL, Reg Year=2000, Test ID=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarInsuranceQuoteTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestCase.CarInsuranceTest@21d03963]" started-at="2021-07-20T18:21:08 IST" name="flushReport" finished-at="2021-07-20T18:21:13 IST" duration-ms="4478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- TestCase.CarInsuranceTest -->
+    </test> <!-- CarInsuranceErrorMessageTest -->
+    <test started-at="2021-07-20T18:21:13 IST" name="HealthInsuranceMenuItemsTest" finished-at="2021-07-20T18:21:25 IST" duration-ms="11980">
+      <class name="TestCase.HealthInsuranceTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HealthInsuranceTest@264f218]" started-at="2021-07-20T18:21:13 IST" name="openBrowser" finished-at="2021-07-20T18:21:15 IST" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="HealthInsuranceMenuTest()[pri:0, instance:TestCase.HealthInsuranceTest@264f218]" started-at="2021-07-20T18:21:15 IST" name="HealthInsuranceMenuTest" finished-at="2021-07-20T18:21:24 IST" duration-ms="9789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HealthInsuranceMenuTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestCase.HealthInsuranceTest@264f218]" started-at="2021-07-20T18:21:24 IST" name="flushReport" finished-at="2021-07-20T18:21:25 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- TestCase.HealthInsuranceTest -->
+    </test> <!-- HealthInsuranceMenuItemsTest -->
+    <test started-at="2021-07-20T18:21:25 IST" name="Insurance Details Test" finished-at="2021-07-20T18:22:54 IST" duration-ms="89737">
+      <class name="TestCase.CarInsuranceTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.CarInsuranceTest@1169afe1]" started-at="2021-07-20T18:22:08 IST" name="openBrowser" finished-at="2021-07-20T18:22:10 IST" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@1169afe1]" started-at="2021-07-20T18:22:10 IST" name="CarInsuranceQuoteTest" data-provider="getCarInsuranceTestData" finished-at="2021-07-20T18:22:34 IST" duration-ms="24131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Car Brand=HONDA, Username=Arun, Comments=Email or Phone number is invalid, Email=arun@gmail.com, Fuel Type=Petrol, Number=525222, Car Variant=V6 AUTO TRANSMISSION, Test Ststus=Pass, City=TN01-CHENNAI, Reg Year=2015, Test ID=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarInsuranceQuoteTest -->
+        <test-method signature="CarInsuranceQuoteTest(java.util.Hashtable)[pri:0, instance:TestCase.CarInsuranceTest@1169afe1]" started-at="2021-07-20T18:22:34 IST" name="CarInsuranceQuoteTest" data-provider="getCarInsuranceTestData" finished-at="2021-07-20T18:22:54 IST" duration-ms="19742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Car Brand=RENAULT, Username=Guna, Comments=Email or Phone number is invalid, Email=gunagmail, Fuel Type=Diesel, Number=8181818181, Car Variant=1.5 PLATINE MONO (1461 cc), Test Ststus=Pass, City=AP01-MANCHERYAL, Reg Year=2000, Test ID=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarInsuranceQuoteTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestCase.CarInsuranceTest@1169afe1]" started-at="2021-07-20T18:22:54 IST" name="flushReport" finished-at="2021-07-20T18:22:54 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- TestCase.CarInsuranceTest -->
+      <class name="TestCase.HealthInsuranceTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HealthInsuranceTest@747f281]" started-at="2021-07-20T18:21:57 IST" name="openBrowser" finished-at="2021-07-20T18:21:59 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="HealthInsuranceMenuTest()[pri:0, instance:TestCase.HealthInsuranceTest@747f281]" started-at="2021-07-20T18:21:59 IST" name="HealthInsuranceMenuTest" finished-at="2021-07-20T18:22:08 IST" duration-ms="8616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HealthInsuranceMenuTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestCase.HealthInsuranceTest@747f281]" started-at="2021-07-20T18:22:08 IST" name="flushReport" finished-at="2021-07-20T18:22:08 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- TestCase.HealthInsuranceTest -->
+      <class name="TestCase.TravelnsuranceTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.TravelnsuranceTest@81d9a72]" started-at="2021-07-20T18:21:25 IST" name="openBrowser" finished-at="2021-07-20T18:21:27 IST" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="InsurancePlanTest(java.util.Hashtable)[pri:0, instance:TestCase.TravelnsuranceTest@81d9a72]" started-at="2021-07-20T18:21:27 IST" name="InsurancePlanTest" data-provider="getInsurancePlanTestData" finished-at="2021-07-20T18:21:53 IST" duration-ms="26399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Destination=British Indian Ocean Territory, Number Prefix=INDIA (+91), Start Date=20/08/21, Comments=Displayed three lowest international travel insurance plan, Email=arun@gmail.com, Name=Arun, Name Prefix=Mr., Number=8181818181, End Date=30/09/21, Test Ststus=Pass, Age=21,22, Test ID=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurancePlanTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestCase.TravelnsuranceTest@81d9a72]" started-at="2021-07-20T18:21:53 IST" name="flushReport" finished-at="2021-07-20T18:21:57 IST" duration-ms="4357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- TestCase.TravelnsuranceTest -->
+    </test> <!-- Insurance Details Test -->
+  </suite> <!-- Suite -->
+</testng-results>

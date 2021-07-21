@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TravelInsuranceDetailsTest(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Regression"/>
+        <include name="Default"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCase.TravelnsuranceTest">
+        <methods>
+          <include name="InsurancePlanTest" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- TestCase.TravelnsuranceTest -->
+    </classes>
+  </test> <!-- TravelInsuranceDetailsTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

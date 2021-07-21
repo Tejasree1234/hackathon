@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Smoke" />
+			<include name="Regression" />
+			<include name="Default" />
+		</run>
+	</groups>
+	<test name="TravelInsuranceDetailsTest">
+		<classes>
+			<class name="TestCase.TravelnsuranceTest"></class>
+		</classes>
+	</test>
+	<test name="CarInsuranceErrorMessageTest">
+		<classes>
+			<class name="TestCase.CarInsuranceTest"></class>
+		</classes>
+	</test>
+	<test name="HealthInsuranceMenuItemsTest">
+		<classes>
+			<class name="TestCase.HealthInsuranceTest"></class>
+		</classes>
+	</test>
+	<!-- <test name="Insurance Details Test"> <classes> <class name="TestCase.TravelnsuranceTest" 
+		/> <class name="TestCase.HealthInsuranceTest" /> <class name="TestCase.CarInsuranceTest" 
+		/> </classes> </test>  --> 
+</suite> 
